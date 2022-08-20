@@ -1,0 +1,40 @@
+.index-contenedor {display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 50vh 30vh
+;
+grid-template-areas:
+"header nav"
+"main main"
+"footer footer";}
+
+header {grid-area: header; border: 5px rgb(255, 94, 0) 
+    solid; 
+    background-color: black; color: rgb(255, 94, 0);
+    }
+
+nav { border: 5px rgb(255, 94, 0) solid; grid-area: nav;
+display: flex; justify-content: space-around;
+background-color: black; color: rgb(255, 94, 0);
+}
+.Lista {list-style: none; display: flex; gap: 1rem;}
+
+main{grid-area: main;
+background-color: gray;
+; border: 5px rgb(255, 94, 0)solid;}
+
+footer {grid-area: footer;
+background-color: gray; border: 10px rgb(255, 94, 0) solid; padding: 80px;;}
+
+h1 {display: flex; justify-content: center;}
+
+@media screen and (max-width:560px) { .index-contenedor {display: grid;
+    grid-template-columns: 1fr ;
+    ;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";}
+    
+
+}

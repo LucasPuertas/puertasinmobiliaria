@@ -1,0 +1,26 @@
+
+.Header {background-color: black; color: rgb(255, 102, 0); 
+    margin: -10px; 
+    border: 10px solid rgb(255, 102, 0);
+    border-top: 10px solid rgb(255, 102, 0);
+border-bottom: 10px solid rgb(255, 102, 0); margin-bottom: -20px;}
+
+
+.lista {display:flex; list-style-type: none; flex-direction: row; justify-content: start}
+
+
+h4 {color: rgb(233, 116, 0);
+     background-color: rgb(48, 48, 48); padding: 5px; 
+     border-bottom: 10px solid rgb(41, 40, 40); 
+    border-radius: 10px; }
+    main {background-color: gray; border-left: 10px solid rgb(255, 102, 0);
+    margin-left: -10px; border-bottom: 10px solid rgb(255, 102, 0);}
+    
+   @font-face {
+    font-family: fuenteuno;
+    src: url(BebasNeue-regular.ttf);
+    
+   }    
+h1 {font-family: fuenteuno;}
+    footer {background-color: gray; margin: -20px;}
+
