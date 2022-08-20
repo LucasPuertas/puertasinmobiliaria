@@ -1,9 +1,10 @@
 .index-contenedor {display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 50vh 30vh
+grid-template-columns: 1fr;
+grid-template-rows: 20vhfr  1fr 50vh 30vh
 ;
 grid-template-areas:
-"header nav"
+"header header"
+"nav nav"
 "main main"
 "footer footer";}
 
