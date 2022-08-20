@@ -1,6 +1,6 @@
 .index-contenedor {display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: 20vhfr  1fr 50vh 30vh
+grid-template-rows: 10vh  10vh 50vh 30vh
 ;
 grid-template-areas:
 "header header"
@@ -15,18 +15,46 @@ header {grid-area: header; border: 5px rgb(255, 94, 0)
 
 nav { border: 5px rgb(255, 94, 0) solid; grid-area: nav;
 display: flex; justify-content: space-around;
-background-color: black; color: rgb(255, 94, 0);
+background-color: black; color: rgb(238, 238, 238);
 }
-.Lista {list-style: none; display: flex; gap: 1rem;}
+.Lista {list-style: none; display: flex; gap: 1rem; color: rgb(0, 0, 0);}
+
+#menu {color: rgb(255, 94, 0);}
+
+#transformacion-color:hover {transition: 2s; background-color: rgb(255, 94, 0); height: 4s;}
+
+
+
+
+
 
 main{grid-area: main;
 background-color: gray;
 ; border: 5px rgb(255, 94, 0)solid;}
 
+
+#PCOLOR {color: rgb(253, 173, 0);}
+
+
+
+
 footer {grid-area: footer;
 background-color: gray; border: 10px rgb(255, 94, 0) solid; padding: 80px;;}
 
+
+
+
+
+
+
+
 h1 {display: flex; justify-content: center;}
+
+
+
+
+
+
 
 @media screen and (max-width:560px) { .index-contenedor {display: grid;
     grid-template-columns: 1fr ;
