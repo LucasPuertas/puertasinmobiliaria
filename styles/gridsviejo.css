@@ -1,3 +1,8 @@
+/* grid viejo que aplique para el desafio de aplicar grid,
+no me sirve ahora por que tengo que usar el de bootstrap, 
+este archivo se borra cuando cambie el css de contacto y servicios*/
+
+
 .index-contenedor {display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 10vh  10vh 50vh 30vh
