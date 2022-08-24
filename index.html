@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./syles/estilos.css">
-    <link rel="stylesheet" href="./styles/grids.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/styles/color-formabasica.css">
+    <link rel="stylesheet" href="/styles/index.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com"
+    >
+  <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">">
     <title>Inmobiliaria</title>
 
-<body class="index-contenedor"> <!--el diseño del index y servicios va a ser diferente por que me resultaba imposible
-   reestructurar el css que tenia con el grids-->
-
-   <header>
+<body>
+  <section class="container-fluid text-center">
+   <header class="row">
     <h1> INMOBILIARIA PUERTAS </h1> </header>
     
-  <nav id="transformacion-color">
+  <nav class="row" id="transformacion-color">
 
-    <ul class="Lista">
+    <ul class="Lista col-3">
     <li><a href="./index.html" class="Lista"><h4>Inicio</h4></a></li>
     <li><a href="./pages/servicios.html" class="Lista"><h4> servicios</h4></a></li>
     <H2 id="menu">MENU</H2>
@@ -26,18 +29,59 @@
   </ul>
   </nav>
    
-   <main>
+   <main class="row colorfondo">
     
     
    <H1>Bienvenido</H1>
-   <h2>Somos la INMOBILIARIA numero 1 dentro de todos los partidos de la costa!
-    contamos con sucursales en toda la provincia de buenos aires </h2>
-    <img src="./imagenes/si.jpeg" alt="goku"> <p id="PCOLOR">Puedes consultar nuestros lotes, contactos y servicios al pasar el raton sobre MENU</p>
+  
+    <br> 
+    <br><br>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/Inmuebles-Fotolia.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="colortexto">INMOBILIARIA PUERTAS</h2>
+            <h3 class="colortexto">Somos la INMOBILIARIA numero 1 dentro de todos los partidos de la costa!</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/propiedades-inmobiliarias-para-la-plantilla-del-fondo-de-venta-109774370.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+            <h3>Ofrecemos planes para obras generales y renovaciones</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/dibu.jpg" class="d-block w-100" alt="dibu">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>dibu?</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
    </main>
    
-   <footer>
+   <footer class="row color">
 soporte tecnico en inmobiliariapuertas@gmail.com
   <br>  redes sociales: <a href="https://es-la.facebook.com/teycainmobiliaria/">facebook</a> <a href="https://www.instagram.com/cristiano/">instagram</a>
 </footer>
+</section>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
