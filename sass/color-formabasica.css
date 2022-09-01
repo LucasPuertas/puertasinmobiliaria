@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid rgba(255, 38, 0, 0.774);
+  background-color: rgb(0, 0, 0);
+  border-top: solid 5px rgb(0, 0, 0);
+}
+nav .Lista {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  color: rgb(0, 0, 0);
+}
+nav #menu {
+  color: rgba(255, 38, 0, 0.774);
+}
+
+#transformacion-color:hover {
+  transition: 2s;
+  background-color: rgb(255, 38, 0);
+  height: 4s;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 38, 0, 0.774);
+}
+
+.color {
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 38, 0, 0.774);
+}
+
+#paddingfooter {
+  padding: 100px;
+}
+
+.colorfondo {
+  background-color: rgb(255, 255, 255);
+}
+
+.marginheader {
+  margin: -10px;
+  padding: 3px;
+}/*# sourceMappingURL=color-formabasica.css.map */

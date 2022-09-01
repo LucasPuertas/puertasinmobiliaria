@@ -1,0 +1,16 @@
+@import "./variable";
+
+nav { display: flex; 
+    justify-content: space-around;
+    border: 05px solid $primaryColor;
+background-color: rgb(0, 0, 0);
+border-top: solid 05px rgb(0, 0, 0);
+
+    .Lista {list-style: none; display: flex; 
+        gap: 1rem; color: rgb(0, 0, 0);}
+
+    #menu {color: $primaryColor;} }
+
+    #transformacion-color:hover {transition: 2s; 
+        background-color: rgb(255, 38, 0) ;
+         height: 4s;}
