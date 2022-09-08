@@ -1,12 +1,70 @@
 
 
-.pie-pagina {width: 100%
+.piedepagina {width: 100%
     ;
 background-color: rgb(0, 0, 0);
 
 .group1 {width: 100%;
 max-width: 1200px;
-margin: auto;}
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr) ;
+grid-gap: 50px;
+padding: 45px 0px;}
 
-
+.group1 .box figure {width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+h2 {color: $primaryColor;margin-bottom: 25px;
+    font-size: 20px;}
+
+    p {color: #efefef;
+    margin-bottom: 10px;}
+
+
+    .red-social
+        a {
+            display: inline-block;
+        text-decoration: none;
+    width: 45px;
+height: 45px;
+line-height: 45px;
+color:#fff;
+
+text-align: center;
+transition: all 300ms ease;}
+
+
+
+/* no se por que no se aplica el border con el mixin */
+.red-social .mixin { @include red-social {$bgcolor: rgb(97, 97, 97) , $bordercolor red, }
+; } 
+
+a:hover {color: $primaryColor;}
+
+.group2 {
+    background-color: rgb(119, 119, 119);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    }
+.group2 small {font-size: 15px ;}
+
+    }
+
+    @media screen and (max-width:800px) { .piedepagina .group1 {
+        width: 90%;
+grid-template-columns: repeat(1, 1fr) ;
+grid-gap: 30px;
+padding: 35px 0px;
+    }
+        
+    }
+
+
+
+
+
