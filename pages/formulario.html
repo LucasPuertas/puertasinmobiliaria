@@ -15,65 +15,52 @@
 </head>
 
 
-<body class="index-contenedor">
+  <body class="index-contenedor">
 
 
 
-    <!--grid contenedor-->
-  <section class="container-fluid text-center">
 
-<!--Cabezera o titulo-->
-  <header class="row"> 
-    <h1> INMOBILIARIA PUERTAS </h1>
-</header>
+    <!--grid bootstrap-->
+    <section class="container-fluid text-center">
+  
+  <!--titulo o cabezera-->
+    <header class="row"> 
+      <h1> INMOBILIARIA PUERTAS </h1>
+  </header>
+  
+  <!--Barra de navegacion con transformacion de color-->
+    <nav class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 navres" id="transformacion-color">
+       <ul class="Lista col-3">
+      <li><a href="../index.html" class="Lista col"><h4>Inicio</h4></a></li>
+      <li><a href="../pages/soporte.html" class="Lista"><h4>soporte</h4></a></li>
+      <H2 id="menu">MENU</H2>
+      <li><a href="../pages/Lotes.html" class="Lista"><h4> Nuestros Lotes</h4></a></li>
+      <li><a href="../pages/servicios.html" class="Lista"><h4>servicios</h4></a></li>
+    </ul>
+    </nav>
+    <main class="contenedor form-body">
+      <form action="">
+        <div class="form-header">
+          <h1 class="form-title">C  <span>ontacto</span> </h1>
+        </div>
+        <label for="nombre" class="form-label">nombres:</label>
+        <input type="text" class="form-input" id="nombre" placeholder="escriba su nombre">
+
+        <label for="direccion" class="form-label">direccion</label>
+
+        <input type="text" class="form-input" id="direccion" placeholder="Escriba su direccion">
+
+        <label for="correo" class="form-label">correo electronico</label>
+        <input type="email" class="form-input" id="correo" placeholder="ingrese su correo">
+
+        <label for="mensaje" class="form-label">mensaje</label>
+        <textarea class="form-textarea" id="mensaje" cols="30" rows="10"></textarea>
+
+        <input type="submit" class="btn-submit" value="enviar solicitud">
+      </form>
 
 
-<!--Barra de navegacion con transformacion de color-->
-  <nav class="row" id="transformacion-color">
-     <ul class="Lista col-3">
-    <li><a href="../index.html" class="Lista col"><h4>Inicio</h4></a></li>
-    <li><a href="../pages/soporte.html" class="Lista"><h4>soporte</h4></a></li>
-    <H2 id="menu">MENU</H2>
-    <li><a href="../pages/Lotes.html" class="Lista"><h4> Nuestros Lotes</h4></a></li>
-    <li><a href="../pages/contactos.html" class="Lista"><h4>Contacto</h4></a></li>
-  </ul>
-  </nav>
 
-
-
-<main class="row colorfondo">
-<h1>contacto</h1>
-<!--pagina relacionada al pago de lotes y servicios-->
-<form class="row">
-    <fieldset>
-        <legend>Ingresa tus datos</legend>
-        <div><label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre">
-    </div>
-    <div><label for="correo">correo</label>
-        <input type="email" name="correo" placeholder="inmobiliariapuertas@gmail.com">
-    </div>
-
-    <div><label for="Contraseña">Contraseña (necesario :)
-    </label>
-        <input type="password" name="Contraseña">
-        <br>
-
-
-
-         <label for="text">Seleccione lote</label>
-        <select name="Lotes" id="">
-            <option value="Lote1">Casa normal</option>
-            <option value="LOTE2">Casa Moderna</option>
-            <option value="lote3">Mansion</option>
-            <option value="lote4">Casa Minecraft</option>
-        </select>
-
-    </div>
-    <input type="submit" value="Enviar">
-</fieldset>
-</form>
-<p>NO SE COMO HACER EL FORMULARIO BONITO XD</p>
     </main>
 
     <footer class="row piedepagina">
