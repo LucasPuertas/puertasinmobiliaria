@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 .red-social {
   background-color: gray;
@@ -87,10 +88,6 @@ nav #menu {
     padding: 35px 5px;
   }
 }
-.main {
-  background-color: blue;
-}
-
 .red-social {
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -101,6 +98,12 @@ nav #menu {
   margin-left: 80px;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .form-body {
   background: url(/imagenes/Ardor.jpg);
   background-size: cover;
@@ -108,12 +111,115 @@ nav #menu {
 }
 
 .contenedor .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+.contenedor .form-header .form-title {
   font-weight: normal;
   font-family: sans-serif;
-  color: aqua;
+  color: #ff0000;
+  text-align: center;
+  padding: 14px 0;
 }
-.contenedor .form span {
-  color: aquamarine;
+.contenedor .form-label {
+  display: block;
+  color: rgb(197, 0, 0);
+  font-size: 16px;
+  font-family: monospace;
+  position: relative;
+}
+.contenedor .form-input, .contenedor .form-texarea {
+  background: rgba 0, 0, 0, 0.7;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(197, 0, 0);
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.contenedor .form-texarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+.contenedor .btn-submit {
+  width: 100%;
+  font-family: monospace;
+  outline: none;
+  background: rgb(197, 0, 0);
+  font-size: 16px;
+  border: none;
+  color: rgba(252, 252, 252, 0.863);
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.contenedor .btn-submit:hover {
+  background: #ff1c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.contenedor-serv {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+}
+
+.img-serv {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo-serv {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contenedor-dos-serv {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(197, 0, 0);
+}
+.contenedor-dos-serv p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.contenedor-dos-serv .img-serv {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.contenedor-dos-serv {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(197, 0, 0);
+}
+.contenedor-dos-serv p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -142,4 +248,22 @@ header {
 
 .colortexto {
   color: rgb(255, 255, 255);
+}
+
+.fotito {
+  background-image: url(/imagenes/fondos-inmobiliarios-que-como-funcionan.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.tamaño {
+  width: 100px;
+  height: 200px;
+}
+
+.tamaño2 {
+  width: 600px;
+  height: 600px;
+  float: left;
 }/*# sourceMappingURL=color-formabasica.css.map */

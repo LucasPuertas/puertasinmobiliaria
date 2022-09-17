@@ -1,9 +1,41 @@
+* {margin: 0px; padding: 0px;
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+
+
+
 .form-body { background: url(/imagenes/Ardor.jpg);
 -webkit-background-size:cover ; 
 background-size: cover;
 background-attachment: fixed; 
 }
 
-.contenedor .form {font-weight: normal;
-font-family: sans-serif; color: aqua;
-span {color: aquamarine;}}
+.contenedor { 
+    .form {background:rgba(0,0,0,.6); width:90%; max-width:650px; 
+        margin: auto; padding: 5px 35px; margin-top: 30px ;
+         padding-bottom: 30px; border-radius: 3px;}
+
+ .form-header .form-title 
+ {font-weight: normal;
+    font-family: sans-serif; color:#ff0000 ; 
+    text-align: center; padding: 14px 0; }
+    
+.form-label {display: block; color: $Colorp; font-size: 16px; font-family: monospace; position: relative;}
+
+.form-input, .form-texarea
+ {background:rgba (0,0,0,.7);
+    border: none; outline: none;
+     border-bottom: 2px solid $Colorp;
+width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 20px;
+font-size: 14px; color: #fff;} 
+
+.form-texarea {resize: vertical; max-height: 150px; min-height: 50px;}
+
+.btn-submit {width: 100%; 
+    font-family: monospace; 
+    outline: none; background:$Colorp; 
+    font-size: 16px; border: none; color:
+rgba(252, 252, 252, 0.863); padding: 15px 0; cursor:pointer; transition: all .5s ease; }
+     .btn-submit:hover {background: #ff1c1c;}
+ }
